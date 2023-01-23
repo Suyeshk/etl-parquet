@@ -12,7 +12,7 @@ dst_bucket_name = 'snowoutput'
 
 # Set the source and destination keys (file names)
 src_key = 'csv/data.csv'
-dst_key = 'parquet/data1.parquet'
+dst_key = 'parquet/data2.parquet'
 
 # Use the S3 client to download the object
 response = s3.get_object(Bucket=src_bucket_name, Key=src_key)
